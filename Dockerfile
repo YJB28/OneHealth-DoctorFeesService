@@ -11,7 +11,7 @@ WORKDIR /app
 
 RUN pwd
 
-# COPY . .
+COPY . .
 
 RUN ls
 
